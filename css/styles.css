@@ -72,7 +72,7 @@ body {
   background-color: #fff;
   text-align: center;
   position: relative;
-  padding-top: 80px;
+  padding-top: 75px;
 }
 
 .card__place {
@@ -98,11 +98,26 @@ body {
           align-items: center;
   -ms-flex-pack: distribute;
       justify-content: space-around;
-  padding: 2em;
+  padding: 1.5em;
   border-top: 0.1px solid #e8e8e8;
 }
 
 .card__socialgroup .main-title {
   margin-bottom: 0.4em;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+  background: whitesmoke;
+  padding: 1em;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.attribution a {
+  color: #3e52a3;
 }
 /*# sourceMappingURL=styles.css.map */
